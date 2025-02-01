@@ -29,6 +29,6 @@
     - Fluctuations are present, it indicates inconsistent performance, requiring a more structured study plan.
 
 #### Graphs
-    ![alt text](image.png)
-    ![alt text](image-1.png)
-    ![alt text](image-2.png)
+    ![Impact of negative score on final score](image.png)
+    ![Speed vs accuracy](image-1.png)
+    ![Rank over time](image-2.png)

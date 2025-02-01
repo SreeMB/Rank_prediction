@@ -1,0 +1,12 @@
+quiz_id,submitted_at,score,trophy_level,accuracy,speed,final_score,negative_score,correct_answers,incorrect_answers,source,type,started_at,ended_at,better_than,total_questions,mistakes_corrected,initial_mistake_count,quiz.title,quiz.topic,rank,title
+58,28-12-24 22:58:52,52,2,43.0,100,35.0,17.0,13,17,exam,topic,28-12-24 22:42:26,28-12-24 22:58:49,92,55,0,17,Reproduction,Reproductive Health,301,reproduction
+57,15-01-25 15:57:12,40,3,38.0,86,24.0,16.0,10,16,exam,topic,15-01-25 15:47:05,15-01-25 15:57:11,43,89,0,16,Reproduction,Human Reproduction,1810,reproduction
+24,13-01-25 13:28:12,76,2,100.0,95,76.0,0.0,19,0,live,topic,13-01-25 13:14:17,13-01-25 13:28:11,375,20,4,4,MICROBES IN HUMAN WELFARE  PYQ,microbes in human welfare,8479,microbes in human welfare
+51,16-01-25 20:13:19,116,2,96.0,100,115.0,1.0,29,1,live,topic,16-01-25 20:01:10,16-01-25 20:13:18,115,100,11,12,Human Physiology (15),Body fluids and circulation,418,human physiology
+6,17-01-25 15:17:44,92,1,100.0,100,92.0,0.0,23,0,exam,topic,17-01-25 15:07:45,17-01-25 15:17:41,395,23,3,3,Human Physiology PYQ,Body fluids and circulation,9140,human physiology
+50,11-12-24 20:36:44,24,3,66.0,90,21.0,3.0,6,3,exam,topic,11-12-24 20:31:14,11-12-24 20:36:42,23,100,0,3,Human Physiology (14),Respiration and Gas Exchange,2392,human physiology
+51,15-01-25 20:34:39,36,3,31.0,96,16.0,20.0,9,20,exam,topic,15-01-25 20:21:25,15-01-25 20:34:38,35,100,0,20,Human Physiology (15),Body fluids and circulation,2023,human physiology
+20,13-01-25 16:10:03,12,2,30.0,100,5.0,7.0,3,7,live,topic,13-01-25 16:05:27,13-01-25 16:10:02,18,59,0,7,PRINCIPLES OF INHERITANCE AND VARIATION PYQ,principles of inheritance and variation ,2556,principles of inheritance and variation
+25,11-01-25 21:20:08,112,2,93.0,100,110.0,2.0,28,2,exam,topic,11-01-25 21:04:22,11-01-25 21:20:07,270,41,12,14,HUMAN HEALTH AND DISEASE PYQ,human health and disease ,5215,human health and disease
+6,16-01-25 20:00:11,36,2,90.0,100,35.0,1.0,9,1,live,topic,16-01-25 19:52:57,16-01-25 20:00:09,152,23,1,2,Human Physiology PYQ,Body fluids and circulation,1598,human physiology
+6,15-01-25 15:36:46,36,3,50.0,78,27.0,9.0,9,9,exam,topic,15-01-25 15:23:42,15-01-25 15:36:45,152,23,0,9,Human Physiology PYQ,Body fluids and circulation,1598,human physiology

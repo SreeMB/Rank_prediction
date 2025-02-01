@@ -1,0 +1,4 @@
+quiz_id,submitted_at,score,trophy_level,accuracy,speed,final_score,negative_score,correct_answers,incorrect_answers,source,type,started_at,ended_at,better_than,total_questions,mistakes_corrected,initial_mistake_count,quiz.title,quiz.topic,rank,title
+18,13-01-25 13:12:40,40,1,100.0,100,40.0,0.0,10,0,live,topic,13-01-25 13:11:13,13-01-25 13:12:39,177,22,0,0,REPRODUCTIVE HEALTH PYQ,Reproductive Health,2380,reproductive health
+18,11-01-25 21:03:43,64,3,84.0,86,61.0,3.0,16,3,exam,topic,11-01-25 20:58:07,11-01-25 21:03:42,286,22,0,3,REPRODUCTIVE HEALTH PYQ,Reproductive Health,5764,reproductive health
+51,17-01-25 15:30:18,108,2,90.0,100,105.0,3.0,27,3,exam,topic,17-01-25 15:18:30,17-01-25 15:30:15,107,100,9,12,Human Physiology (15),Body fluids and circulation,171,human physiology

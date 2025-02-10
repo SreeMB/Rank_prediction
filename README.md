@@ -1,34 +1,71 @@
-# NEET RANK PREDICTION
+## **📌 Project Title: Student Rank Predictor for NEET Exam**  
 
-### Setup information
+### **📃 Project Overview**  
+The **Student Rank Predictor** is a **data-driven Machine Learning solution** designed to analyze students' **quiz performance** and predict their **NEET exam rank**. The model utilizes **historical quiz data** and **real-time quiz submissions** to assess **topic-wise strengths, weaknesses, mistake patterns, and rank progression**.  
 
-> For setup information please refer to the file `setup_steps.md`
+---
 
-### Schema and Intial data exploration, Analysis
+![Workflow Diagram](images/workflow.png)
 
-> The exploratory analysis and the analysis of the stident performance by factors are done in the file `EDA.ipynb` in `data folder`
+---
+### **🎯 Key Objectives**
+✔ **Analyze student quiz performance** based on accuracy, speed, and scores.  
+✔ **Identify weak topics & mistake trends** to help students improve.  
+✔ **Predict students' NEET rank** using a Machine Learning model.  
+✔ **Provide insights on college admission chances** based on rank predictions.  
 
-#### Highlights
-**Weak Topics**
-> `Principles of Inheritance and Variation` has the **lowest score (12.0) and lowest accuracy(30%)**, indicating a need for more focused revision.
-    >`Respiration and Gas Exchange` also has a low score (24.0), suggesting *difficulty in this topic*.
-    > `Human Reproduction` (40.0) and seconfd lowest accuracy (38%) and `Reproductive Health` (52.0) are also areas *requiring improvement*.
-    > Consolidating title vise: Even though `human physiology` has a mean score of 64, the topic `Respiration and Gas Exchange` needs improvement. Reproduction and Reproductive Health are *difficult titles*.
-    - 
+---
 
+### **📊 Approach & Workflow**
+1️⃣ **Data Ingestion:**  
+- Collected **current and past quiz data** from APIs.  
+- Preprocessed and stored data for further analysis.  
 
-    **Mistake Pattern**
+2️⃣ **Data Transformation:**  
+- Cleaned & formatted **timestamps, scores, accuracy**, and negative scoring impact.  
+- Encoded **categorical data (topics, quiz types, sources, etc.).**  
+- Scaled **numerical features** for model training.  
 
-    > **Reproduction** has a highest negative score (16.5), suggesting students struggle with answer selection in this topic.
-    > **Principles of Inheritance and Variation** has the highest negative score (7.0), indicating frequent incorrect attempts.
-    > It is observed that with increase in the negative score the final score is heavily impacted.
+3️⃣ **Exploratory Data Analysis (EDA):**  
+- Identified **weak topics**, mistake patterns, and rank progression over time.  
+- Analyzed the **relationship between speed & accuracy**.  
 
+4️⃣ **Machine Learning Model:**  
+- Trained a **Random Forest Regressor & AdaBoost Regressor** for **rank prediction**.  
+- Evaluated model performance using **R² Score, MAE, and RMSE**.  
 
-    **Rank Progression**
+5️⃣ **Rank Prediction & Insights Generation:**  
+- Predicted **students’ expected NEET rank** based on quiz performance.  
+- Provided **actionable insights** to improve weak areas.  
 
-    > Fluctuations are present, it indicates inconsistent performance, requiring a more structured study plan.
+6️⃣ **Deployment & API Integration (Optional):** (In Progress)
+- Designed a **Flask API** for real-time rank prediction.  
+- Hosted the model to make predictions from user input.  
 
-#### Graphs
-    ![Impact of negative score on final score](image.png)
-    ![Speed vs accuracy](image-1.png)
-    ![Rank over time](image-2.png)
+---
+
+### **📌 Key Insights from Analysis**
+📌 **Weak Topics:** Identified **Principles of Inheritance, Reproduction, and Respiration** as **difficult topics**.  
+📌 **Mistake Patterns:** High **negative scores** indicate frequent errors in certain areas.  
+📌 **Speed vs Accuracy Tradeoff:** High-speed attempts led to lower accuracy.  
+📌 **Rank Progression:** Some students showed **consistent improvement**, while others had fluctuating ranks.  
+📌 **College Admission Estimation:** Predicted rank ranges to **estimate probable college admissions**.  
+
+---
+
+### **🛠️ Technologies Used**
+- **Programming Languages:** Python  
+- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
+- **Machine Learning Models:** Random Forest, AdaBoost Regressor  
+- **Data Processing:** OneHotEncoder, StandardScaler, SimpleImputer  
+- **Deployment (Optional):** Flask API for real-time predictions  
+
+---
+
+### **🚀 Project Outcome**
+✔ **Built a working rank prediction model** based on quiz performance.  
+✔ **Generated actionable insights** to guide students in their preparation.  
+✔ **Designed a scalable & modular framework** for future enhancements.  
+✔ **Enabled real-time predictions** using a trained ML model.  
+
+---

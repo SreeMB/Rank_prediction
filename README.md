@@ -5,9 +5,6 @@ The **Student Rank Predictor** is a **data-driven Machine Learning solution** de
 
 ---
 
-![Workflow Diagram](images/workflow.png)
-
----
 ### **🎯 Key Objectives**
 ✔ **Analyze student quiz performance** based on accuracy, speed, and scores.  
 ✔ **Identify weak topics & mistake trends** to help students improve.  

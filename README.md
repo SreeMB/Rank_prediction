@@ -1,4 +1,4 @@
-## **📌 PStudent Rank Predictor**  
+## **📌 Student Rank Predictor**  
 
 ### **📃 Project Overview**  
 The **Student Rank Predictor** is a **data-driven Machine Learning solution** designed to analyze students' **quiz performance** and predict their **NEET exam rank**. The model utilizes **historical quiz data** and **real-time quiz submissions** to assess **topic-wise strengths, weaknesses, mistake patterns, and rank progression**.  
